@@ -1,0 +1,495 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    
+}
+
+.logo{
+    height: 150px;
+    width: 50%;
+
+    
+}
+
+
+@media (max-width: 480px) {
+
+    .logo{
+        height: 10%;
+        width: 50%;
+    }
+
+}
+
+
+.ord{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+
+    background-color: black;
+    
+}
+
+li{
+    display: inline-block;
+    width: 10%;
+    font-size: 20px;
+   
+    
+}
+
+li:hover{
+    font-size: 200%;
+    transition: font-size 3s;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+@media (max-width: 480px) {
+
+    li{
+        font-size: 70%;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    li:hover{
+        font-size: 200%;
+        transition: font-size 3s;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+}
+
+@media (max-width:769px){
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li:hover{
+        font-size: 200%;
+        transition: font-size 3s;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
+ul{
+    text-align: center;
+    background-color: white;
+    
+
+}
+
+.promo{
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+@media (max-width: 480px){
+
+    .promo{
+        font-size: 15%;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 769px){
+
+    .promo{
+        font-size: 110%;
+    }
+
+}
+
+.entrada{
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+@media (max-width:769px){
+
+    .entrada{
+
+        width: 50%;
+        height: 35%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+
+    .entr{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+h3{
+    font-family: 'Bebas';
+    font-size: 70px;
+    font-weight: 400;
+    text-decoration: underline 3px ;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width:480px){
+
+    h3{
+        font-size: 300%;
+        text-decoration: underline 2px;
+    }
+
+    h4{
+        font-size: 150%;
+    }
+
+    p{
+        font-size: 100;
+    }
+
+}
+
+@media (max-width:769px){
+
+    h3{
+        font-size:600%;
+    }
+
+    h4{
+        font-size: 250%;
+    }
+
+    p{
+        font-size: 359%;
+    }
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 2%;
+    line-height: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.menuFondo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    justify-content: space-around;
+    color: white;
+}
+
+.logoFondo{
+    height: 150px;
+    width: 50%;
+
+}
+
+
+@media (max-width: 480px) {
+
+
+    .logoFondo{
+
+        height: 50%;
+
+    }
+
+    .menuFondo{
+        margin-right: 5%;
+    }
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.moni{
+    height: 90%;
+    width: 80%;
+   margin-bottom: 3%;
+}
+
+.edi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+@media (max-width:480px){
+
+    .moni{
+        height: 40%;
+        margin-bottom: 10%;
+        margin-left: 30%;
+        width: 30%;
+    }
+
+    .edi{
+        height: 500px;
+        width: 300px;
+    }
+}
+
+
+@media (max-width:769px){
+
+    .moni{
+
+        margin-top: 3%;
+        width: 100%;
+        height: 90%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .edi{
+        height: 600px;
+        align-items: center;
+        width: 1300px;
+        margin-left: 10%;
+    }
+
+}
+
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width:480px){
+
+    .mapa{
+
+        height: 4%;
+        width: 4%;
+
+    }
+
+}
+
+
+h6{
+    color: gray;
+    text-align: center;
+    font-size: 80%;
+    
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    justify-content: center;
+    
+    
+}
+
+
+
+.hor{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+@media (max-width:480px){
+
+    .hor{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 100%;
+    }
+
+}
+
+
+.sugerencia{
+    display: flex;
+    justify-content: center;
+}
+
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 30%;
+}
+
+@media (max-width:480px){
+
+    .formu{
+
+        height: 50%;
+        width: 50%;
+    }
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.tipos{
+    text-align: center;
+    border-bottom: 2px black solid ;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    font-size: 230%;
+}
+
+.mD{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h5{
+    text-align: center;
+    font-size: 110%;
+}
+
+@media (max-width:480px) {
+
+    h5{
+        font-size: 50%;
+    }
+
+    h6{
+        font-size: 40%;
+    }
+
+    .tipos{
+        font-size: 120%;
+    }
+
+}
+
+
+
+/*section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} */
+
+section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+@media (max-width:480px){
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}
+
+.espe{
+    display: grid;
+    grid-template-columns: 43% 42%;
+    column-gap: 10%;
+    margin-left: 3%;
+}
+
+.menuEns{
+    display: grid;
+    grid-template-columns: 29% 29% 29% ;
+    justify-content: center;
+    column-gap: 7%;
+    margin-right: 2%;
+}
+
+.redes{
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 150%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+
+@media (max-width:480px) {
+
+    .redes{
+
+        font-size: 80%;
+
+    }
+
+}
+
+/*.carousel-item{
+
+    height: 70%;
+    width: 70%;
+
+} */
+

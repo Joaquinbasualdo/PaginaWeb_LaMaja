@@ -1,0 +1,29 @@
+@import "imagenes";
+@import "tipografia";
+@import "estructura";
+
+
+li{
+    display: inline-block;
+    width: 10%;
+    font-size: 20px;
+
+        &:hover{
+            font-size: 200%;
+            transition: font-size 3s;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+}
+
+ul{
+    text-align: center;
+    background-color: rgba(33,37,41,255);
+    margin-bottom: 0px;
+}
+
+footer{
+
+    background-color: black;
+    
+}

@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    
+}
+
+#carouselExampleIndicators{
+    
+    margin: 3% 30%;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menuFondo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.edi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+
+.menu{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    justify-content: center;
+    margin: 3% 0;
+    
+}
+
+.mD{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 3% 0;
+}
+
+.menuEns{
+    display: grid;
+    grid-template-columns: 29% 29% 29% ;
+    justify-content: center;
+    column-gap: 7%;
+    margin: 3% 0;
+    margin-right: 2%;
+
+    
+}
+
+.espe{
+    display: grid;
+    grid-template-columns: 43% 42%;
+    column-gap: 10%;
+    margin-left: 3%;
+}
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 33%;
+    
+    width: 40%;
+}
+

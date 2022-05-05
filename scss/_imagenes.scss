@@ -1,11 +1,12 @@
+
+
 .logo{
-    height: 150px;
     width: 50%;
+    height: 150px;
 }
 
 .ord{
-    display: flex;
-    justify-content: center;
+    @include flex;
 }
 
 .imagenes{
@@ -33,4 +34,34 @@
     margin-top: 3%;
     height: 1000%;
     width: 100%;
+}
+
+@media (max-width: 768px){
+
+    
+    .moni{
+
+        margin-top: 3%;
+        width: 80%;
+        height: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+       
+}
+
+@media (max-width: 480px){
+
+    .logo{
+        height: 100px;
+        width: 50%;
+    }
+
+    .logoFondo{
+
+        height: 50%;
+
+    }
+
 }

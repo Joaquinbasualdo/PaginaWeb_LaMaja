@@ -7,7 +7,7 @@
 }
 
 h5{
-    text-align: center;
+    text-align: map-get($mapa, alineacion);
     font-size: 110%;
 }
 
@@ -24,13 +24,13 @@ h3{
 
 h4{
     font-size: 30px;
-    text-align: center;
+    text-align: map-get($mapa, alineacion);
     letter-spacing: 1.5px;
     margin: 3% 0%;
 }
 
 p{
-    text-align: center;
+    text-align: map-get($mapa, alineacion);
     font-size: 18px;
     line-height: 30px;
     font-family: 'Noto Sans', sans-serif;
@@ -38,14 +38,14 @@ p{
 }
 
 .hor{
-    text-align: center;
+    text-align: map-get($mapa, alineacion);
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
 }
 
 .tipos{
-    text-align: center;
+    text-align: map-get($mapa, alineacion);
     border-bottom: 2px black solid ;
     margin-right: 30%;
     margin-left: 30%;
@@ -65,7 +65,60 @@ h6{
     font-family: 'Noto Sans', sans-serif;
     margin-right: 5%;
     margin-left: 5%;
-    font-size: 150%;
     margin-top: 7%;
     margin-bottom: 5%;
+    font-size: 140%;
+}
+
+
+@media (max-width: 768px){
+
+    .promo{
+        font-size: 110%;
+    }
+
+    h3{
+        font-size:600%;
+    }
+
+    h4{
+        font-size: 250%;
+    }
+
+    p{
+        font-size: 160%;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 480px){
+
+    
+    .promo{
+        font-size: 90%;
+        margin-left: 3%;
+    }
+
+    h3{
+        font-size: 350%;
+        text-decoration: underline 2px;
+    }
+
+    h4{
+        text-align: map-get($mapa, alineacion);
+    }
+
+    p{
+        font-size: 120%;
+    }
+
+    h5{
+        font-size: 100%;
+    }
+
+    .redes{
+
+        font-size: 140%;
+
+    }
 }

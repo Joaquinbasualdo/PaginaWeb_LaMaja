@@ -1,6 +1,8 @@
+@import "variables";
 @import "imagenes";
 @import "tipografia";
 @import "estructura";
+
 
 
 li{
@@ -26,4 +28,38 @@ footer{
 
     background-color: black;
     
+}
+
+@media (max-width: 768px){
+
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li{
+        &:hover{
+            font-size: 200%;
+            transition: font-size 3s;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+    }
+
+}
+
+@media (max-width: 480px){
+
+    
+    li{
+        font-size: 90%;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
 }

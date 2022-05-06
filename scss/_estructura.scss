@@ -9,9 +9,9 @@ header{
     
 }
 
-#carouselExampleIndicators{
+#carouselExampleControls{
     
-    margin: 3% 30%;
+    margin: 3% 0%;
     
 }
 
@@ -34,6 +34,7 @@ header{
 .edi{
     width: 100%;
     height: 60%;
+    @include flex;
 }
 
 
@@ -91,6 +92,19 @@ header{
 .cen{
     @include flex;
     margin: 3% 0%;
+}
+
+.fotos{
+    @include flex;
+}
+
+@media (max-width: 768px){
+
+    #carouselExampleControls{
+        width: 100%;
+        margin: 3% 25%;
+    }
+
 }
 
 

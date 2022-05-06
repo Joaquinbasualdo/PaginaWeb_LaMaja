@@ -12,6 +12,7 @@
 .imagenes{
     
     height: 50rem;
+    width: 100%;
     
 }
 
@@ -28,11 +29,15 @@
 }
 
 .mapa{
-    display: flex;
-    justify-content: center;
+    @include flex;
     margin-bottom: 20px;
     margin-top: 3%;
-    height: 1000%;
+    height: 20rem;
+    width: 20rem;
+}
+
+#mapita{
+    height: 100%;
     width: 100%;
 }
 
@@ -48,6 +53,9 @@
         margin-right: 10%;
     }
 
+    .imagenes{
+        height: 40rem;
+    }
        
 }
 
@@ -62,6 +70,10 @@
 
         height: 50%;
 
+    }
+
+    .imagenes{
+        height: 25rem;
     }
 
 }
